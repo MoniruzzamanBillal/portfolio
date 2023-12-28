@@ -113,11 +113,18 @@ const Hero = () => {
 
           <div className="icon1 p-1.5 rounded-full bg-gray-300  ">
             {" "}
-            <FaGithub className=" text-base xsm:text-xl" />
+            <a target="_blank" href="https://github.com/MoniruzzamanBillal">
+              <FaGithub className=" text-base xsm:text-xl" />
+            </a>
           </div>
           <div className="icon2 p-1.5 rounded-full bg-gray-300 ">
             {" "}
-            <FaLinkedin className=" text-base xsm:text-xl" />
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/md-moniruzzaman-a0b466249/"
+            >
+              <FaLinkedin className=" text-base xsm:text-xl" />
+            </a>
           </div>
 
           {/*  */}
